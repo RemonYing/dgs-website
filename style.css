@@ -35,7 +35,8 @@ header{
     border-radius:30px;
     white-space:nowrap;
     background:#E0A52B;
-    color:white;
+    color:white;    
+    text-decoration:none;
 }
 .brand{
     display:flex;
@@ -61,7 +62,8 @@ header{
         font-size:13px;
         padding:8px 12px;   
         background:#E0A52B;
-    color:white;
+    color:white;     
+    text-decoration:none;
     }
 }
 .key{
