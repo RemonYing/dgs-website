@@ -49,23 +49,21 @@ header{
 @media (max-width:768px){
 
     header{
-        text-align:center;
-         flex-direction:row;
-    }
-
-    .logo-area img{
-        width:120px;
+        flex-direction:row; /* column မဟုတ် row */
     }
 
     .title{
-        font-size:20px;
+        font-size:16px;
+    }
+
+    .logo-area img{
+        width:60px;
     }
 
     .btn{
-        width:180px;
-        font-size:18px;
+        font-size:13px;
+        padding:8px 12px;
     }
-
 }
 .key{
     width: 100%;
