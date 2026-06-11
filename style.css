@@ -59,7 +59,9 @@ header{
 
     .btn{
         font-size:13px;
-        padding:8px 12px;
+        padding:8px 12px;   
+        background:#E0A52B;
+    color:white;
     }
 }
 .key{
