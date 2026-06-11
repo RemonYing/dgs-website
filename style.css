@@ -14,6 +14,7 @@ header{
     justify-content:space-between;
     padding:10px 15px;
     gap:10px;
+    flex-wrap:wrap;
 }
 
 .logo-area img{
@@ -24,20 +25,20 @@ header{
 .title{
     flex:1;
     margin:0;
-    text-align:left;
-    font-size:39px;
+    font-size:28px;
+    font-weight:bold;
     line-height:1.2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .btn{
-    padding:10px 15px;
-    font-size:14px;
-    border-radius:30px;
-    white-space:nowrap;
     background:#E0A52B;
-    color:white;    
+    color:white;
     text-decoration:none;
+    padding:10px 18px;
+    border-radius:30px;
+    font-size:16px;
+    margin:0;
 }
 .brand{
     display:flex;
@@ -48,24 +49,25 @@ header{
 @media (max-width:768px){
 
     header{
-        flex-direction:row; /* column မဟုတ် row */
-    }
-
-    .title{
-        font-size:16px;
+        flex-direction:column;
+        text-align:center;
     }
 
     .logo-area img{
-        width:70px;
+        width:120px;
+    }
+
+    .title{
+        font-size:20px;
     }
 
     .btn{
-        font-size:13px;
-        padding:8px 12px;   
-        background:#E0A52B;
-    color:white;     
-    text-decoration:none;
+        width:180px;
+        font-size:18px;   
+         background:#E0A52B;
+    color:white;
     }
+
 }
 .key{
     width: 100%;
